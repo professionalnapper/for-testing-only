@@ -51,7 +51,7 @@ const CustomToolbar = (toolbar) => {
 
   return (
     <div className="flex flex-col gap-8 mb-8">
-      <h1 className="text-xl font-semibold">Appointment</h1>
+      <h1 className="text-xl font-semibold">Appointments</h1>
       <div className="grid sm:grid-cols-2 md:grid-cols-12 gap-4">
         <div className="md:col-span-1 flex sm:justify-start justify-center items-center">
           <button
