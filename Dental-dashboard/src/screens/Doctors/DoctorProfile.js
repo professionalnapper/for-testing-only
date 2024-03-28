@@ -62,7 +62,7 @@ function DoctorProfile() {
           />
           <div className="gap-2 flex-colo">
             <h2 className="text-sm font-semibold">Dr. Vicky</h2>
-            <p className="text-xs text-textGray">daudimburuge@gmail.com</p>
+            <p className="text-xs text-textGray">vicky@gmail.com</p>
             <p className="text-xs">+254 712 345 678</p>
           </div>
           {/* tabs */}
