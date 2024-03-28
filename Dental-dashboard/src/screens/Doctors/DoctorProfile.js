@@ -61,7 +61,7 @@ function DoctorProfile() {
             className="w-40 h-40 rounded-full object-cover border border-dashed border-subMain"
           />
           <div className="gap-2 flex-colo">
-            <h2 className="text-sm font-semibold">Dr. Daudi Mburuge</h2>
+            <h2 className="text-sm font-semibold">Dr. Vicky</h2>
             <p className="text-xs text-textGray">daudimburuge@gmail.com</p>
             <p className="text-xs">+254 712 345 678</p>
           </div>
