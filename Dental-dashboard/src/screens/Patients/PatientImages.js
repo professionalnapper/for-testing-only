@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { toast } from 'react-hot-toast';
 import Uploader from '../../components/Uploader';
@@ -31,6 +31,59 @@ function PatientImages() {
         label="Save Changes"
         Icon={null}
       />
+    </div>
+  );
+}
+
+export default PatientImages;*/
+import React, { useState } from 'react';
+import { FaTimes } from 'react-icons/fa';
+import { toast } from 'react-hot-toast';
+import Uploader from '../../components/Uploader';
+import { Button } from '../../components/Form';
+
+function PatientImages() {
+  const [images, setImages] = useState([]);
+  
+  // Function to handle image removal
+  const removeImage = (index) => {
+    const updatedImages = [...images];
+    updatedImages.splice(index, 1);
+    setImages(updatedImages);
+  };
+
+  // Function to handle image upload
+  const handleImageUpload = (newImage) => {
+    setImages([...images, newImage]);
+  };
+
+  // Function to save changes
+  const saveChanges = () => {
+    // Implement save functionality here, e.g., sending images to the server
+    toast.success('Changes saved successfully!');
+  };
+
+  return (
+    <div className="flex-col gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full">
+        {images.map((image, index) => (
+          <div key={index} className="relative w-full">
+            <img
+              src={image.url}
+              alt={`patient-${index}`}
+              className="w-full h-72 rounded-lg object-cover"
+            />
+            <button
+              onClick={() => removeImage(index)}
+              className="bg-white rounded-full w-8 h-8 flex-colo absolute -top-1 -right-1"
+            >
+              <FaTimes className="text-red-500" />
+            </button>
+          </div>
+        ))}
+      </div>
+      <Uploader onUpload={handleImageUpload} />
+      <Button onClick={saveChanges} label="Save Changes" />
     </div>
   );
 }
