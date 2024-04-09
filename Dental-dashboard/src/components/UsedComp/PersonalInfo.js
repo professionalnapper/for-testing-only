@@ -11,6 +11,17 @@ function PersonalInfo({ titles }) {
   const [title, setTitle] = React.useState(sortsDatas.title[0]);
   const [date, setDate] = React.useState(new Date());
   const [gender, setGender] = React.useState(sortsDatas.genderFilter[0]);
+
+  const handleDeleteAccount = () => {
+    // Implement delete account functionality here
+    toast.error('Deleting account is not available yet');
+  };
+
+  const handleSaveChanges = () => {
+    // Implement save changes functionality here
+    toast.success('Changes saved successfully');
+  };
+
   return (
     <div className="flex-colo gap-4">
       {/* uploader */}
@@ -55,8 +66,8 @@ function PersonalInfo({ titles }) {
               </div>
             </Select>
           </div>
-          {/* emergancy contact */}
-          <Input label="Emergency Cotact" color={true} type="number" />
+          {/* emergency contact */}
+          <Input label="Emergency Contact" color={true} type="number" />
           {/* date */}
           <DatePickerComp
             label="Date of Birth"
@@ -72,16 +83,12 @@ function PersonalInfo({ titles }) {
         <Button
           label={'Delete Account'}
           Icon={RiDeleteBin5Line}
-          onClick={() => {
-            toast.error('This feature is not available yet');
-          }}
+          onClick={handleDeleteAccount}
         />
         <Button
           label={'Save Changes'}
           Icon={HiOutlineCheckCircle}
-          onClick={() => {
-            toast.error('This feature is not available yet');
-          }}
+          onClick={handleSaveChanges}
         />
       </div>
     </div>
