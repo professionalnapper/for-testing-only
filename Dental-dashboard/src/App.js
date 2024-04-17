@@ -62,6 +62,7 @@ function App() {
           <Route path="/medicine" element={<Medicine />} />
           <Route path="/services" element={<Services />} />
           <Route path="/settings" element={<Settings />} />
+          <Route path="/signup" element={<signup />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
