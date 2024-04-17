@@ -47,7 +47,7 @@ function PatientProfile() {
         >
           <IoArrowBackOutline />
         </Link>
-        <h1 className="text-xl font-semibold">Amani Mmassy</h1>
+        <h1 className="text-xl font-semibold">yooo</h1>
       </div>
       <div className=" grid grid-cols-12 gap-6 my-8 items-start">
         <div

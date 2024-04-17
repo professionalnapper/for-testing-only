@@ -43,13 +43,13 @@ function Settings() {
           className="col-span-12 flex-colo gap-6 lg:col-span-4 bg-white rounded-xl border-[1px] border-border p-6 lg:sticky top-28"
         >
           <img
-            src="/images/user1.png"
+            src="/images/raya.jpg"
             alt="setting"
             className="w-40 h-40 rounded-full object-cover border border-dashed border-subMain"
           />
           <div className="gap-2 flex-colo">
-            <h2 className="text-sm font-semibold">Dr. Daudi Mburuge</h2>
-            <p className="text-xs text-textGray">daudimburuge@gmail.com</p>
+            <h2 className="text-sm font-semibold">Dr. Raya Nicole Lazo</h2>
+            <p className="text-xs text-textGray">raya.lazo@gmail.com</p>
             <p className="text-xs">+254 712 345 678</p>
           </div>
           {/* tabs */}

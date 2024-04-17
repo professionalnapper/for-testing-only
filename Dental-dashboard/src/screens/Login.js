@@ -9,11 +9,12 @@ function Login() {
   return (
     <div className="w-full h-screen flex-colo bg-dry">
       <form className="w-2/5 p-8 rounded-2xl mx-auto bg-white flex-colo">
-        <img
-          src="/images/logo.png"
-          alt="logo"
-          className="w-48 h-16 object-contain"
-        />
+      <img
+        src={process.env.PUBLIC_URL + '/images/healthflow-logo.png'}
+        alt="logo"
+        className="w-48 h-16 object-contain"
+      />
+
         <div className="flex flex-col gap-4 w-full mb-6">
           <Input
             label="Email"
@@ -25,7 +26,7 @@ function Login() {
             label="Password"
             type="password"
             color={true}
-            placeholder={'*********'}
+            placeholder={'*******'}
           />
         </div>
         <Button
@@ -33,6 +34,12 @@ function Login() {
           Icon={BiLogInCircle}
           onClick={() => navigate('/')}
         />
+        <div className = "mt-2"></div>
+        <Button
+          label="Sign Up"
+          Icon={BiLogInCircle}
+          onClick={() => navigate('/signup')}
+          />
       </form>
     </div>
   );
