@@ -10,7 +10,7 @@ function Login() {
     <div className="w-full h-screen flex-colo bg-dry">
       <form className="w-2/5 p-8 rounded-2xl mx-auto bg-white flex-colo">
       <img
-        src={process.env.PUBLIC_URL + '/images/image.png'}
+        src={process.env.PUBLIC_URL + '/images/catto.jpg'}
         alt="logo"
         className="w-48 h-16 object-contain"
       />
