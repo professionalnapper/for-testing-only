@@ -11,7 +11,7 @@ function SignUp() {
       <form className="w-2/5 p-8 rounded-2xl mx-auto bg-white flex-colo">
         <img
           src="/images/healthflow-logo.png"
-          alt="logo"
+          alt="healthflow"
           className="w-48 h-16 object-contain"
         />
         <div className="flex flex-col gap-4 w-full mb-6">
