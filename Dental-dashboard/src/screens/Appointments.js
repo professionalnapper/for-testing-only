@@ -123,7 +123,7 @@ function Appointments() {
       start: moment({ hours: 7 }).toDate(),
       end: moment({ hours: 9 }).toDate(),
       color: '#FB923C',
-      title: 'John Doe',
+      title: 'Cristal Marie',
       message: 'He is not sure about the time',
       service: servicesData[1],
       shareData: {
