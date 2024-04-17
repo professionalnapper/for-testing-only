@@ -9,9 +9,9 @@ function SenderReceverComp({ item, functions, button }) {
           <h1 className="text-md font-semibold">From:</h1>
         </div>
         <div className="flex flex-col gap-2 mt-4">
-          <h6 className="text-xs font-medium">Delight Dental Clinic</h6>
-          <p className="text-xs text-textGray">delightdental@gmail.com</p>
-          <p className="text-xs text-textGray">+ (456) 786, 972, 90</p>
+          <h6 className="text-xs font-medium">HealthFlow Clinic</h6>
+          <p className="text-xs text-textGray">healthflowclinic@gmail.com</p>
+          <p className="text-xs text-textGray">272-5200</p>
         </div>
       </div>
       <div className="border border-border rounded-xl p-5">
