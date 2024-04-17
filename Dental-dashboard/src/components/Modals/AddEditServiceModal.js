@@ -28,7 +28,7 @@ function AddEditServiceModal({ closeModal, isOpen, datas }) {
         />
 
         <Input
-          label="Price (Tsh)"
+          label="Price (Php)"
           type="number"
           color={true}
           placeholder={datas?.price ? datas.price : 0}
