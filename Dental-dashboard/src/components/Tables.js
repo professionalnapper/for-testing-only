@@ -451,7 +451,7 @@ export function DoctorsTable({ data, functions, doctor }) {
         <tr>
           <th className={thclass}>#</th>
           <th className={thclass}>{doctor ? 'Doctor' : 'Receptionist'}</th>
-          <th className={thclass}>Created At</th>
+          <th className={thclass}>Date Created</th>
           <th className={thclass}>Phone</th>
           <th className={thclass}>Title</th>
           <th className={thclass}>Email</th>
