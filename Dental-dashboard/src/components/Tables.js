@@ -210,7 +210,7 @@ export function MedicineTable({ data, onEdit }) {
         <tr>
           <th className={thclass}>Name</th>
           <th className={thclass}>
-            Price <span className="text-xs font-light">(Tsh)</span>
+            Price <span className="text-xs font-light">(Php)</span>
           </th>
           <th className={thclass}>Status</th>
           <th className={thclass}>InStock</th>
