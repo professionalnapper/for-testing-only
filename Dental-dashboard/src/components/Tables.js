@@ -42,7 +42,7 @@ export function Transactiontable({ data, action, functions }) {
           <th className={thclass}>Date</th>
           <th className={thclass}>Status</th>
           <th className={thclass}>
-            Amout <span className="text-xs font-light">(Tsh)</span>
+            Amount <span className="text-xs font-light">(Php)</span>
           </th>
           <th className={thclass}>Method</th>
           {action && <th className={thclass}>Actions</th>}
@@ -137,10 +137,10 @@ export function InvoiceTable({ data }) {
         <tr>
           <th className={thclass}>Invoice ID</th>
           <th className={thclass}>Patient</th>
-          <th className={thclass}>Created Date</th>
+          <th className={thclass}>Date Created</th>
           <th className={thclass}>Due Date</th>
           <th className={thclass}>
-            Amout <span className="text-xs font-light">(Tsh)</span>
+            Amount <span className="text-xs font-light">(Php)</span>
           </th>
           <th className={thclass}>Actions</th>
         </tr>
@@ -683,12 +683,12 @@ export function InvoiceProductsTable({ data, functions, button }) {
           <th className={thclass}>Item</th>
           <th className={thclass}>
             Item Price
-            <span className="text-xs font-light ml-1">(Tsh)</span>
+            <span className="text-xs font-light ml-1">(Php)</span>
           </th>
           <th className={thclass}>Quantity</th>
           <th className={thclass}>
             Amout
-            <span className="text-xs font-light ml-1">(Tsh)</span>
+            <span className="text-xs font-light ml-1">(Php)</span>
           </th>
           {button && <th className={thclass}>Actions</th>}
         </tr>
@@ -732,14 +732,14 @@ export function MedicineDosageTable({ data, functions, button }) {
           <th className={thclasse}>Item</th>
           <th className={thclasse}>
             Item Price
-            <span className="text-xs font-light ml-1">(Tsh)</span>
+            <span className="text-xs font-light ml-1">(Php)</span>
           </th>
           <th className={thclasse}>Dosage</th>
           <th className={thclasse}>Instraction</th>
           <th className={thclasse}>Quantity</th>
           <th className={thclasse}>
             Amout
-            <span className="text-xs font-light ml-1">(Tsh)</span>
+            <span className="text-xs font-light ml-1">(Php)</span>
           </th>
           {button && <th className={thclasse}>Actions</th>}
         </tr>

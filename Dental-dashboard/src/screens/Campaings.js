@@ -43,7 +43,7 @@ function Campaings() {
         <CampaignModal isOpen={isOpen} closeModal={closeModal} data={data} />
       )}
       <div className="flex-btn flex-wrap gap-4 items-center">
-        <h1 className="text-xl font-semibold">Campaings</h1>
+        <h1 className="text-xl font-semibold">Campaigns</h1>
         <div className="xs:w-56">
           <Button
             label="New Campaing"
