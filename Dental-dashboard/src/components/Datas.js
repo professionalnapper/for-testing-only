@@ -670,7 +670,7 @@ export const invoicesData = [
         id: 1,
         name: servicesData[5].name,
         price: 5000,
-        description: 'Dental Veneers Treatment',
+        description: 'Basic Check Up',
       },
       {
         id: 2,
